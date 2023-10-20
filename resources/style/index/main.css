@@ -1,0 +1,9 @@
+/* linked to index.html */
+
+main {
+  background-color: green;
+}
+
+main img {
+  width: 100%
+}

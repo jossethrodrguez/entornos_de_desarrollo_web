@@ -1,0 +1,30 @@
+/* Linked to index.html */
+
+header img {
+    width: 100%;
+}
+
+header nav {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    padding: 20px 80px;
+}
+
+header nav img {
+    width: 100px;
+}
+
+#links-navbar {
+    background-color: #fff;
+    
+}
+
+#links-navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#links-navbar ul li ul {
+    display: block;
+}
