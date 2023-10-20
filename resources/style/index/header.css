@@ -26,5 +26,9 @@ header nav img {
 }
 
 #links-navbar ul li ul {
-    display: block;
+    display: none;
+}
+
+div#go-login-button ul {
+  display: none;
 }
