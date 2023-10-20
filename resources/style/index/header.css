@@ -10,10 +10,11 @@ header nav {
     background-color: red;
     display: flex;
     padding: 20px 60px;
+    justify-content: space-between;
 }
 
 header nav img {
-    width: 100px;
+    width: 200px;
 }
 
 #links-navbar {
