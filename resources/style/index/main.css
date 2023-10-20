@@ -2,8 +2,17 @@
 
 main {
   background-color: green;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
+main h2 {
+  position: absolute;
+  display: flex;
+  text-align: left;
+}
 main img {
-  width: 100%
+  max-width: 1600px;
 }

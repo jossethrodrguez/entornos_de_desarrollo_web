@@ -1,14 +1,15 @@
 /* Linked to index.html */
 
-header img {
-    width: 100%;
+header {
+    width: 1360px;
+    overflow: hidden;
+    background-color: blue;
 }
 
 header nav {
     background-color: red;
-    width: 100%;
     display: flex;
-    padding: 20px 80px;
+    padding: 20px 60px;
 }
 
 header nav img {
