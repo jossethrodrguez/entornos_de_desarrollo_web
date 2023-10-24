@@ -10,8 +10,9 @@ main {
 
 main h2 {
   position: absolute;
-  display: flex;
+  /* display: flex; */
   text-align: left;
+  justify-content: center;
 }
 main img {
   max-width: 1600px;

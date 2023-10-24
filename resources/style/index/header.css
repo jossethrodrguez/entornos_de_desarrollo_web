@@ -3,11 +3,10 @@
 header {
     width: 1360px;
     overflow: hidden;
-    background-color: blue;
 }
 
 header nav {
-    background-color: red;
+    background-color: #fff;
     display: flex;
     padding: 20px 60px;
     justify-content: space-between;
@@ -17,20 +16,31 @@ header nav img {
     width: 200px;
 }
 
-#links-navbar {
+div#links-navbar {
     background-color: #fff;
-    
+    width: 400px;
 }
 
-#links-navbar ul{
+div#links-navbar ul{
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
+    font-size: 18px;
 }
 
-#links-navbar ul li ul {
+div#links-navbar ul li ul {
     display: none;
 }
 
+div#go-login-button {
+  background-color: #0474c9;
+  color: #fff;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
 div#go-login-button ul {
   display: none;
 }
