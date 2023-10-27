@@ -1,0 +1,19 @@
+#banner {
+  background-color: red;
+}
+#banner img {
+  width: 200px;
+  padding: 10px 20px;
+}
+
+nav {
+  background-color: #1e63d4;
+}
+ul#navbar-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #fff;
+  padding: 10px;
+  width: 65%;
+}

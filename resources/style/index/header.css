@@ -43,4 +43,19 @@ div#go-login-button {
 }
 div#go-login-button ul {
   display: none;
+  transition: width 2s;
+  list-style-type: none;
+}
+
+
+div#go-login-button:hover ul {
+  display: block;
+  position: absolute;
+  background-color: #0364b8;
+  padding 20px;
+}
+
+div#go-login-button ul li a{
+  text-decoration: none;
+  color: #fff;
 }
