@@ -1,0 +1,24 @@
+body {
+  background-color: #e9ecf0;
+}
+
+main {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  color: #0c5ce8
+}
+
+main h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+p#info-last-login {
+  font-size: 12px;
+  margin-left: 10px;
+}
+ul#list-content li {
+  list-style: none;
+  padding: 20px 40px;
+}
